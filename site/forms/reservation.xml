@@ -1,0 +1,7 @@
+<form>
+    <fieldset>
+        <field name="id" type="hidden" />
+        <field name="slot_start" type="calendar" label="COM_ZKUSEBNY_FIELD_SLOT_START" required="true" format="%Y-%m-%d %H:%M" />
+        <field name="paid_hours" type="integer" label="COM_ZKUSEBNY_FIELD_PAID_HOURS" default="1" min="1" max="8" />
+    </fieldset>
+</form>

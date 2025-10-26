@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade">
+    <name>COM_ZKUSEBNY</name>
+    <version>6.0.0</version>
+    <description>Rezervační systém pro zkušebny s automatizací osvětlení</description>
+    <namespace>Zkusebny\Component\Zkusebny</namespace>
+    <files folder="site">
+        <folder>src</folder>
+        <folder>tmpl</folder>
+        <folder>forms</folder>
+    </files>
+    <administration>
+        <menu>COM_ZKUSEBNY</menu>
+        <files folder="administrator">
+            <folder>src</folder>
+            <folder>tmpl</folder>
+            <folder>services</folder>
+            <folder>sql</folder>
+        </files>
+    </administration>
+</extension>
